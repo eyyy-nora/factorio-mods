@@ -1,0 +1,14 @@
+{
+  "name": "@noxblox/example",
+  "version": "0.0.0",
+  "description": "Example Mod",
+  "scripts": {
+    "build": "tstl"
+  },
+  "keywords": ["factorio", "mod"],
+  "contributors": [
+    "noramass <nora@reichwald.me> (https://nora.lol)",
+    "amalyris"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "noxblox",
+  "version": "0.0.0",
+  "description": "Monorepo for various factorio mods",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "packages:build": "pnpm -r build",
+    "packages:lint": "pnpm -r lint",
+    "packages:test": "pnpm -r test",
+    "packages:publish": "pnpm -r publish",
+    "packages:install": "pnpm -r install",
+    "packages:dev": "pnpm -r --parallel dev",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [
+    "factorio",
+    "mod",
+    "monorepo"
+  ],
+  "contributors": [
+    "noramass <nora@reichwald.me> (https://nora.lol)",
+    "amalyris"
+  ],
+  "dependencies": {
+    "typed-factorio": "^1.17.0",
+    "typescript": "^5.2.2",
+    "typescript-to-lua": "^1.18.0"
+  }
+}
